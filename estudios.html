@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Perfil profesional de Rebeca Condori Barzola, con habilidades en Java, JavaScript, TypeScript, Python, HTML y CSS.">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <style>
+        .Contenido1 {
+            background: linear-gradient(#673ab7, #ffd740);
+            padding: 1%;
+            position: relative;
+        }
+
+        .Contenido2 {
+            background-color: white;
+            padding: 2%;
+            border-radius: 5px;
+        }
+
+        .foto-perfil {
+            width: 100%;
+            border-radius: 50%;
+        }
+
+        .skills-text {
+            margin-top: 10px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .contenedor-3 {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            display: flex;
+            align-items: center;
+            margin: 5px 0;
+        }
+
+        .skill-icon {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin-right: 10px;
+            background: conic-gradient(var(--color) var(--percentage), #ccc 0);
+        }
+
+        .java {
+            --color: #f89820;
+            --percentage: 80%;
+        }
+
+        .javascript {
+            --color: #f7df1e;
+            --percentage: 60%;
+        }
+
+        .typescript {
+            --color: #007acc;
+            --percentage: 70%;
+        }
+
+        .python {
+            --color: #3776ab;
+            --percentage: 90%;
+        }
+
+        .html {
+            --color: #e34f26;
+            --percentage: 95%;
+        }
+
+        .css {
+            --color: #1572b6;
+            --percentage: 85%;
+        }
+
+        .acerca-de-mi, .bloque-info {
+            font-size: 20px;
+            padding: 20px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .acerca-de-mi h3, .bloque-info h3 {
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #ffd740;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        .social-icons {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .social-icons li {
+            display: inline;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .social-icons img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 5px;
+        }
+
+        .header {
+            background-color: #6f42c1;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .header a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-family: 'Cursive', sans-serif;
+        }
+
+        .header a:hover {
+            text-decoration: underline;
+        }
+
+        .circular-button {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #6f46b4;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: none;
+            cursor: pointer;
+        }
+
+        .circular-button img {
+            width: 24px;
+            height: 24px;
+        }
+
+        .acerca-de-mi-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <span>Rebeca Condori Barzola</span>
+            <span class="float-right">
+                <a href="#poems">Poemas</a>
+                <a href="#blogs">Blogs</a>
+            </span>
+        </div>
+    </header>
+    <div class="Contenido1">
+        <div class="Contenido2">
+            <header class="text-center">
+                <h1></h1>
+            </header>
+
+            <div class="row">
+                <aside class="col-md-2">
+                    <div class="contenedor-3 text-center">
+                        <img class="foto-perfil" src="https://z-p3-scontent.flim3-2.fna.fbcdn.net/v/t31.18172-8/26240821_1254587601352113_8134726642469173018_o.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHbglAbibt4u6jCACo7VYGNlZRSDbULyI6VlFINtQvIjllFDAqd4NzRUL7We0MrF_0IGgJZTqTVKGzsxVnzKH28&_nc_ohc=vspGx0v1hgMQ7kNvgHWtFMY&_nc_ht=z-p3-scontent.flim3-2.fna&oh=00_AYCsnUzs6H5CNtn-102gT--W-RDqVEKDb5dyDltfviZSIg&oe=669593D4" alt="Foto de perfil de Rebeca Condori Barzola">
+                        <div class="skills-text">HABILIDADES</div>
+                        <ul>
+                            <li><span class="skill-icon java"></span>Java</li>
+                            <li><span class="skill-icon javascript"></span>JavaScript</li>
+                            <li><span class="skill-icon typescript"></span>TypeScript</li>
+                            <li><span class="skill-icon python"></span>Python</li>
+                            <li><span class="skill-icon html"></span>HTML</li>
+                            <li><span class="skill-icon css"></span>CSS</li>
+                        </ul>
+                    </div>
+                </aside>
+
+                <main class="col-md-10">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <section class="acerca-de-mi" id="acerca-de-mi">
+                                <h3></h3>
+                                <p></p>
+                                <p><strong>Grado:</strong> Maestría en Ciencias<br>
+                                    <strong>Especialidad:</strong> Ciencias de la Computación<br>
+                                    <strong>Cursos:</strong> Algoritmos, Introducción a Big Data, Fundamentos de Sistemas Inteligentes, Fundamentos de Computación Paralela, Big Data, Seguridad de Datos, Limpieza de Datos, Programación Segura<br><br>
+                                    <strong>Grado:</strong> Ingeniería en Computación<br>
+                                    <strong>Especialidad:</strong> Ciencias de la Computación<br>
+                                    <strong>Cursos:</strong> Sistemas Operativos, Sistemas de Gestión de Bases de Datos, Ingeniería de Software, Arquitectura de Computadoras, Programación Orientada a Objetos
+                                </p>
+                            </section>
+                        </div>
+                        <div class="col-md-3">
+                            <section class="acerca-de-mi" id="graduation-dates">
+                                <h3>Fechas de Graduación</h3>
+                                <p><strong>Maestría en Ciencias:</strong><br>Graduación en Diciembre 2017<br><br>
+                                    <strong>Ingeniería en Computación:</strong><br>Graduación en Mayo 2013
+                                </p>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="acerca-de-mi-buttons">
+                        <button class="circular-button" onclick="location.href='index.html'">
+                            <img src="https://img.icons8.com/ios-filled/50/ffffff/left.png" alt="Icono de Flecha">
+                        </button>
+                        <button class="circular-button" onclick="location.href='certi.html'">
+                            <img src="https://img.icons8.com/ios-filled/50/ffffff/graduation-cap.png" alt="Icono de Gorra de Graduación">
+                        </button>
+                    </div>
+                </main>
+            </div>
+        </div>
+
+        <footer>
+            <p></p>
+            <ul class="social-icons">
+                <li><a href="https://www.facebook.com/rebeca.condori" target="_blank">
+                    <img src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="Facebook"></a></li>
+                <li><a href="https://www.twitter.com/rebeca_condori" target="_blank">
+                    <img src="https://img.icons8.com/color/48/000000/twitter.png" alt="Twitter"></a></li>
+                <li><a href="https://www.linkedin.com/in/rebeca-condori" target="_blank">
+                    <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn"></a></li>
+                <li><a href="https://plus.google.com/rebeca_condori" target="_blank">
+                    <img src="https://img.icons8.com/color/48/000000/google-plus.png" alt="Google Plus"></a></li>
+                <li><a href="https://www.instagram.com/rebeca_condori" target="_blank">
+                    <img src="https://img.icons8.com/color/48/000000/instagram-new.png" alt="Instagram"></a></li>
+                <li><a href="https://github.com/rebeca-condori" target="_blank">
+                    <img src="https://img.icons8.com/material-outlined/48/000000/github.png" alt="GitHub"></a></li>
+                <li><a href="https://stackoverflow.com/users/rebeca-condori" target="_blank">
+                    <img src="https://img.icons8.com/color/48/000000/stackoverflow.png" alt="Stack Overflow"></a></li>
+            </ul>
+        </footer>
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            $('#go-back').click(function(){
+                window.history.back();
+            });
+            
+            $('#contact').click(function(){
+                alert('¡Botón de contacto presionado!');
+            });
+        });
+    </script>
+</body>
+
+</html>
